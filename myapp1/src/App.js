@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './components/Navigation/navigation.component.jsx';
+import Header from './components/Header/header.component.jsx';
+import Highlight from './components/Highlight/highlight.component.jsx';
+import Footer from './components/Footer/footer.component.jsx';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation />
+      <Header />
+      <Highlight highlightColor="yellow">
+        <p>Welcome to Attribute Directives Example!</p>
+      </Highlight>
+      <Footer />
     </div>
   );
 }

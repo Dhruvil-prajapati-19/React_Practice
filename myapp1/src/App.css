@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add your global styles here */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
