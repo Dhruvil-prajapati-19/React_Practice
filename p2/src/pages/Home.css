@@ -1,0 +1,16 @@
+body {
+    background-color: #f6f8ff;
+    padding: 30px;
+    margin: 20px;
+    color: rgb(29, 29, 29); 
+}
+
+
+body h1 {
+    color: rgb(20, 32, 1);
+}
+
+#info {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}

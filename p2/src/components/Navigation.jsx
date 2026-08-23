@@ -8,6 +8,7 @@ function Navigation() {
                     <a className="nav-link" href="#">Home</a>
                     <a className="nav-link" href="#services">Services</a>
                     <a className="nav-link" href="About">About us</a>
+                    <a className="nav-link" href="Sumdemo">Sumdemo</a>
                 </div>
             </div>
         </nav>
