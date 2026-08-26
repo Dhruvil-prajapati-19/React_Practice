@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <div className="container">
-        <h1>Welcome to my React App</h1>
+        {/* <h1>Welcome to my React App</h1> */}
       </div>
 
       <Routes>

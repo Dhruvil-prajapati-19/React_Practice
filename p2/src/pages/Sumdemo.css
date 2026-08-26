@@ -1,3 +1,13 @@
 .Sumdemo {
     background-color: #cc1111;
 }
+
+input {
+    background-color: #6c6c6c;
+    color: rgb(212, 242, 255);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.853), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    
+}
