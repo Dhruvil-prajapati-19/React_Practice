@@ -1,0 +1,49 @@
+/* Navbar.css */
+.navbar {
+  /* display: flex; */
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  border-bottom: 1px solid #eee;
+}
+.navbar-nav {
+
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+  color: #333333;
+  
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.1s ease;
+  /* background-color: rgb(224, 255, 216); */
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 28px;
+
+}
+.nav-link:hover {
+  /* Background color appears on mouse hover */
+  background-color: #0076ff; 
+  color: #DAA428;
+  transition: color 0.1s ease;  
+}
+body {
+  animation: pageEnter 0.2s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+@keyframes pageEnter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.nav-link:active {
+  font-weight: bold;
+  color: #DAA428;
+  font-size: 30px;
+}

@@ -25,7 +25,7 @@ function Home() {
     <div>
       <h1>This is home page</h1>
 
-      <p>Count: {count}</p>
+      <p id="count">Count: {count}</p>
 
       <button onClick={limitCount}>
         Add

@@ -1,32 +1,7 @@
-import { useState } from "react";
-
 function About() {
-  const [no1, setNo1] = useState(0);
-  const [no2, setNo2] = useState(0);
-  const [msg, setMsg] = useState("");
-
-  const sum = () => {
-    const c = parseInt(no1) + parseInt(no2);
-    setMsg(c);
-  };
-
   return (
     <div>
-      <h2>This is Sumdemo page</h2>
-
-      <input
-        type="text"
-        onChange={(e) => setNo1(e.target.value)}
-      />
-
-      <input
-        type="text"
-        onChange={(e) => setNo2(e.target.value)}
-      />
-
-      <button onClick={sum}>Add</button>
-
-      <h3>Result: {msg}</h3>
+      <h2>This is About</h2>
     </div>
   );
 }

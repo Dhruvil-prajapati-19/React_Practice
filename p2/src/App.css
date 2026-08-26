@@ -13,3 +13,26 @@
     color: rgb(0, 12, 187);
     font-size: 20px;
 } */
+
+/* .container {
+    background-color: #6c6c6c;
+    color: rgb(212, 242, 255);
+    color: rgb(212, 242, 255); 
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.853), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding-left: 1%;
+  padding-bottom: 0.5%;
+  padding-top: 0.01vw;
+  margin-bottom: 2%;
+  
+
+  
+  /* Combined inner white highlight & outer black drop shadow */
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.878), 
+              0 8px 32px rgba(0, 0, 0, 0.3);
+}
