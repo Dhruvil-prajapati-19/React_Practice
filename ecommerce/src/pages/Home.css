@@ -1,0 +1,42 @@
+.home-page {
+  padding: 40px 0;
+}
+
+.home-page h1 {
+  color: #0f172a;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#info {
+  color: #ef4444;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.home-page button {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.home-page button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+#count {
+  color: #4f46e5;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+}
